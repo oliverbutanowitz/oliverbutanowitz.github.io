@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.10">
 <meta name="description" content="Test Asciidoc + Github Pages">
-<meta name="keywords" content="AsciiDoc, Asciidoctor, syntax, reference, cheatsheet">
+<meta name="keywords" content="adoc, asciidoc, docs">
 <meta name="author" content="Oliver Butanowitz">
 <title>AsciiDoc Test</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
@@ -438,6 +438,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 #footer-text{color:rgba(0,0,0,.6);font-size:.9em}}
 @media amzn-kf8{#header,#content,#footnotes,#footer{padding:0}}
 </style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body class="article data-line-1">
 <div id="header">
@@ -446,52 +447,40 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <span id="author" class="author">Oliver Butanowitz</span><br>
 <span id="revdate">Test 2020</span>
 </div>
+<div id="toc" class="toc">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_here_we_go">Here we go</a></li>
+<li><a href="#_test">test</a></li>
+</ul>
+</div>
 </div>
 <div id="content">
-<h1 id="_vorlage_f_asciidoc_doku" class="sect0 data-line-9">Vorlage f. Asciidoc-Doku</h1>
-<div class="paragraph data-line-10">
-<p>Oliver Butanowitz (<a href="mailto:oliver.butanowitz@computacenter.com">oliver.butanowitz@computacenter.com</a>)
-2019-05-10
-:doctype: article
-:toc:
-:toclevels: 2
-:producer: Asciidoctor
-:keywords: adoc, asciidoc, docs
-:imagesdir: img/
-:toclevels: 2
-:source-highlighter: rouge
-:src_numbered: numbered
-:hardbreaks:
-:pagenums:
-:icons: font
-:table-caption!:
-:title-logo-image: <span class="image"><img src="cc-logo.png" alt="cc logo"></span></p>
-</div>
-<div class="sect1 data-line-35">
+<div class="sect1 data-line-29">
 <h2 id="_here_we_go">Here we go</h2>
 <div class="sectionbody">
-<div class="admonitionblock note data-line-39">
+<div class="admonitionblock note data-line-33">
 <table>
 <tr>
 <td class="icon">
-<div class="title">Note</div>
+<i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-<div class="paragraph data-line-40">
-<p>A sample note admonition.
-We can use gemoji icons in the Asciidoctor markup.
-We assign an icon name to the document
+<div class="paragraph data-line-34">
+<p>A sample note admonition.<br>
+We can use gemoji icons in the Asciidoctor markup.<br>
+We assign an icon name to the document<br>
 attributes <code>tip-caption</code>, <code>note-caption</code> and <code>important-caption</code>.</p>
 </div>
 </td>
 </tr>
 </table>
 </div>
-<div class="admonitionblock tip data-line-46">
+<div class="admonitionblock tip data-line-40">
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 It works!
@@ -499,11 +488,11 @@ It works!
 </tr>
 </table>
 </div>
-<div class="admonitionblock important data-line-48">
+<div class="admonitionblock important data-line-42">
 <table>
 <tr>
 <td class="icon">
-<div class="title">Important</div>
+<i class="fa icon-important" title="Important"></i>
 </td>
 <td class="content">
 Asciidoctor is awesome, don&#8217;t forget!
@@ -511,11 +500,11 @@ Asciidoctor is awesome, don&#8217;t forget!
 </tr>
 </table>
 </div>
-<div class="admonitionblock caution data-line-50">
+<div class="admonitionblock caution data-line-44">
 <table>
 <tr>
 <td class="icon">
-<div class="title">Caution</div>
+<i class="fa icon-caution" title="Caution"></i>
 </td>
 <td class="content">
 Don&#8217;t forget to add the <code>&#8230;&#8203;-caption</code> document attributes in the header of the document on GitHub.
@@ -523,11 +512,11 @@ Don&#8217;t forget to add the <code>&#8230;&#8203;-caption</code> document attri
 </tr>
 </table>
 </div>
-<div class="admonitionblock warning data-line-52">
+<div class="admonitionblock warning data-line-46">
 <table>
 <tr>
 <td class="icon">
-<div class="title">Warning</div>
+<i class="fa icon-warning" title="Warning"></i>
 </td>
 <td class="content">
 You have no reason not to use Asciidoctor.
@@ -535,19 +524,19 @@ You have no reason not to use Asciidoctor.
 </tr>
 </table>
 </div>
-<div class="paragraph data-line-54">
-<p>AsciiDoc is a lightweight markup language for authoring notes, articles, documentation, books, web pages, slide decks and man pages in plain text.
+<div class="paragraph data-line-48">
+<p>AsciiDoc is a lightweight markup language for authoring notes, articles, documentation, books, web pages, slide decks and man pages in plain text.<br>
 Test Asciidoc + Github Pages</p>
 </div>
-<div class="admonitionblock note data-line-58">
+<div class="admonitionblock note data-line-52">
 <table>
 <tr>
 <td class="icon">
-<div class="title">Note</div>
+<i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-<div class="paragraph data-line-59">
-<p>These examples focus on the output generated by the HTML backend.
+<div class="paragraph data-line-53">
+<p>These examples focus on the output generated by the HTML backend.<br>
 AsciiDoc produces complementary output when generating PDF, EPUB, and DocBook.</p>
 </div>
 </td>
@@ -557,32 +546,32 @@ AsciiDoc produces complementary output when generating PDF, EPUB, and DocBook.</
 <!-- toc disabled -->
 </div>
 </div>
-<div class="sect1 data-line-65">
+<div class="sect1 data-line-59">
 <h2 id="_test">test</h2>
 <div class="sectionbody">
-<div class="admonitionblock note data-line-67">
+<div class="admonitionblock note data-line-61">
 <table>
 <tr>
 <td class="icon">
-<div class="title">Note</div>
+<i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-An admonition paragraph draws the reader&#8217;s attention to
-auxiliary information.
-Its purpose is determined by the label
+An admonition paragraph draws the reader&#8217;s attention to<br>
+auxiliary information.<br>
+Its purpose is determined by the label<br>
 at the beginning of the paragraph.
 </td>
 </tr>
 </table>
 </div>
-<div class="paragraph data-line-72">
+<div class="paragraph data-line-66">
 <p>Here are the other built-in admonition types:</p>
 </div>
-<div class="admonitionblock tip data-line-74">
+<div class="admonitionblock tip data-line-68">
 <table>
 <tr>
 <td class="icon">
-<div class="title">Tip</div>
+<i class="fa icon-tip" title="Tip"></i>
 </td>
 <td class="content">
 Pro tip&#8230;&#8203;
@@ -590,11 +579,11 @@ Pro tip&#8230;&#8203;
 </tr>
 </table>
 </div>
-<div class="admonitionblock important data-line-76">
+<div class="admonitionblock important data-line-70">
 <table>
 <tr>
 <td class="icon">
-<div class="title">Important</div>
+<i class="fa icon-important" title="Important"></i>
 </td>
 <td class="content">
 Don&#8217;t forget&#8230;&#8203;
@@ -602,11 +591,11 @@ Don&#8217;t forget&#8230;&#8203;
 </tr>
 </table>
 </div>
-<div class="admonitionblock warning data-line-78">
+<div class="admonitionblock warning data-line-72">
 <table>
 <tr>
 <td class="icon">
-<div class="title">Warning</div>
+<i class="fa icon-warning" title="Warning"></i>
 </td>
 <td class="content">
 Watch out for&#8230;&#8203;
@@ -614,11 +603,11 @@ Watch out for&#8230;&#8203;
 </tr>
 </table>
 </div>
-<div class="admonitionblock caution data-line-80">
+<div class="admonitionblock caution data-line-74">
 <table>
 <tr>
 <td class="icon">
-<div class="title">Caution</div>
+<i class="fa icon-caution" title="Caution"></i>
 </td>
 <td class="content">
 Ensure that&#8230;&#8203;
@@ -626,11 +615,11 @@ Ensure that&#8230;&#8203;
 </tr>
 </table>
 </div>
-<div class="admonitionblock note data-line-82">
+<div class="admonitionblock note data-line-76">
 <table>
 <tr>
 <td class="icon">
-<div class="title">Note</div>
+<i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
 Another test
@@ -643,7 +632,7 @@ Another test
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-07-03 11:09:35 +0200
+Last updated 2020-07-03 11:13:26 +0200
 </div>
 </div>
 </body>

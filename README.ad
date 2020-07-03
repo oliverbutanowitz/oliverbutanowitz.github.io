@@ -2,10 +2,9 @@
 Oliver Butanowitz
 Test 2020
 :description: Test Asciidoc + Github Pages
-:keywords: AsciiDoc, Asciidoctor, syntax, reference, cheatsheet
+:keywords: AsciiDoc, Asciidoctor, docs
 :page-description: {description}
 :page-keywords: {keywords}
-
 :toc:
 :toclevels: 2
 :producer: Asciidoctor
@@ -18,8 +17,7 @@ Test 2020
 :pagenums:
 :icons: font
 :table-caption!:
-:title-logo-image: image:cc-logo.png[]
-
+// :title-logo-image: image:cc-logo.png[]
 ifdef::env-github[]
 :tip-caption: :bulb:
 :note-caption: :information_source:
