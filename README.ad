@@ -24,11 +24,13 @@ Oliver Butanowitz (oliver.butanowitz@computacenter.com)
 :table-caption!:
 :title-logo-image: image:cc-logo.png[]
 
+ifdef::env-github[]
 :tip-caption: :bulb:
 :note-caption: :information_source:
 :important-caption: :heavy_exclamation_mark:
 :caution-caption: :fire:
 :warning-caption: :warning:
+endif::[]
 
 == Here we go
 
