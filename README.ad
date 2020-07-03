@@ -6,10 +6,6 @@ Test 2020
 :page-description: {description}
 :page-keywords: {keywords}
 
-= Vorlage f. Asciidoc-Doku
-Oliver Butanowitz (oliver.butanowitz@computacenter.com)
-2019-05-10
-:doctype: article
 :toc:
 :toclevels: 2
 :producer: Asciidoctor
