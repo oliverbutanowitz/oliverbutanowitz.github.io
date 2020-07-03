@@ -1,4 +1,4 @@
-= AsciiDoc Test
+= AsciiDoc Template Github Pages
 Oliver Butanowitz
 Test 2020
 :description: Test Asciidoc + Github Pages
@@ -10,7 +10,6 @@ Test 2020
 :producer: Asciidoctor
 :keywords: adoc, asciidoc, docs
 :imagesdir: img/
-:toclevels: 2
 :source-highlighter: rouge
 :src_numbered: numbered
 :hardbreaks:
@@ -27,7 +26,6 @@ ifdef::env-github[]
 endif::[]
 
 == Here we go
-
 
 [NOTE]
 ====
