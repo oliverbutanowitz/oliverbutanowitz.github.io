@@ -6,13 +6,15 @@ Test 2020
 :page-description: {description}
 :page-keywords: {keywords}
 
-ifdef::env-github[]
+
+:icons: font
+
 :tip-caption: :bulb:
 :note-caption: :information_source:
 :important-caption: :heavy_exclamation_mark:
 :caution-caption: :fire:
 :warning-caption: :warning:
-endif::[]
+
 
 [NOTE]
 ====
