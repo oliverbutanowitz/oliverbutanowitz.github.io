@@ -1,0 +1,20 @@
+= Vorlage f. Asciidoc-Doku
+Oliver Butanowitz (oliver.butanowitz@computacenter.com)
+2019-05-10
+:doctype: article
+:toc:
+:toclevels: 2
+:producer: Asciidoctor
+:keywords: adoc, asciidoc, docs
+:imagesdir: img/
+:toclevels: 2
+:source-highlighter: rouge
+:src_numbered: numbered
+:hardbreaks:
+:pagenums:
+:icons: font
+:table-caption!:
+:title-logo-image: image:cc-logo.png[]
+
+== Here we go
+
