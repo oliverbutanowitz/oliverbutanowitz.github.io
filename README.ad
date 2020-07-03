@@ -1,53 +1,34 @@
 = AsciiDoc Test
 Oliver Butanowitz
 Test 2020
-:description: This guide is a quick reference for the common AsciiDoc document and text formatting markup.
+:description: Test Asciidoc + Github Pages
 :keywords: AsciiDoc, Asciidoctor, syntax, reference, cheatsheet
 :page-description: {description}
 :page-keywords: {keywords}
-:page-layout: docs
-:page-javascripts: [view-result]
-:imagesdir: ../images
-:includedir: _includes
-:experimental:
-:table-caption!:
-:example-caption!:
-:figure-caption!:
-ifndef::env-site[]
-:idprefix:
-:idseparator: -
-:toc: macro
+
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
 endif::[]
-// URLs
-:docs: link:../
-ifdef::env-github[:docs: https://asciidoctor.org/docs/]
-:user: {docs}user-manual/
-ifdef::env-browser[]
-:docs: link:index.adoc
-:user: link:user-manual.adoc
-endif::[]
-:uri-fontawesome: https://fontawesome.com/v4.7.0/
-:uri-icon-in: {user}#inline-icons
-:uri-icon-attrs: {user}#size-rotate-and-flip
-:uri-video: {user}#video
-:uri-checklist: {user}#checklist
-:uri-marker: {user}#custom-markers
-:uri-list-num: {user}#numbering-styles
-:uri-imagesdir: {user}#setting-the-location-of-images
-:uri-image-attrs: {user}#putting-images-in-their-place
-:uri-toc: {user}#user-toc
-:uri-para: {user}#paragraph
-:uri-literal: {user}#literal-text-and-blocks
-:uri-admon: {user}#admonition
-:uri-bold: {user}#bold-and-italic
-:uri-quote: {user}#curved
-:uri-sub: {user}#subscript-and-superscript
-:uri-mono: {user}#mono
-:uri-css: {user}#custom-styling-with-attributes
-:uri-pass: {user}#pass-macros
-:uri-mailinglist: https://discuss.asciidoctor.org
-:uri-char-xml: https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references
-:uri-data-uri: https://developer.mozilla.org/en-US/docs/data_URIs
+
+[NOTE]
+====
+A sample note admonition.
+We can use gemoji icons in the Asciidoctor markup.
+We assign an icon name to the document
+attributes `tip-caption`, `note-caption` and `important-caption`.
+====
+
+TIP: It works!
+
+IMPORTANT: Asciidoctor is awesome, don't forget!
+
+CAUTION: Don't forget to add the `...-caption` document attributes in the header of the document on GitHub.
+
+WARNING: You have no reason not to use Asciidoctor.
 
 AsciiDoc is a lightweight markup language for authoring notes, articles, documentation, books, web pages, slide decks and man pages in plain text.
 {description}
@@ -76,3 +57,5 @@ IMPORTANT: Don't forget...
 WARNING: Watch out for...
 
 CAUTION: Ensure that...
+
+NOTE: Another test
